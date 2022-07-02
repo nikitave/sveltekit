@@ -1,0 +1,97 @@
+{
+  ".svelte-kit/runtime/client/start.js": {
+    "file": "start-109ec531.js",
+    "src": ".svelte-kit/runtime/client/start.js",
+    "isEntry": true,
+    "imports": [
+      "_index-396b3103.js"
+    ],
+    "dynamicImports": [
+      "src/routes/__layout.svelte",
+      ".svelte-kit/runtime/components/error.svelte",
+      "src/routes/about.svelte",
+      "src/routes/index.svelte",
+      "src/routes/ratePage.svelte"
+    ]
+  },
+  "src/routes/__layout.svelte": {
+    "file": "pages/__layout.svelte-6c577899.js",
+    "src": "src/routes/__layout.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-396b3103.js"
+    ],
+    "css": [
+      "assets/pages/__layout.svelte-ab2228c4.css"
+    ]
+  },
+  ".svelte-kit/runtime/components/error.svelte": {
+    "file": "error.svelte-38019e99.js",
+    "src": ".svelte-kit/runtime/components/error.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-396b3103.js"
+    ]
+  },
+  "src/routes/about.svelte": {
+    "file": "pages/about.svelte-97761298.js",
+    "src": "src/routes/about.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-396b3103.js",
+      "_Footer-2f9ded2c.js",
+      "_Links-0d5e1081.js"
+    ],
+    "css": [
+      "assets/pages/about.svelte-b6ca8e19.css"
+    ]
+  },
+  "src/routes/index.svelte": {
+    "file": "pages/index.svelte-77a6cc5c.js",
+    "src": "src/routes/index.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-396b3103.js",
+      "_Links-0d5e1081.js"
+    ]
+  },
+  "src/routes/ratePage.svelte": {
+    "file": "pages/ratePage.svelte-9f148a56.js",
+    "src": "src/routes/ratePage.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-396b3103.js",
+      "_Footer-2f9ded2c.js",
+      "_Links-0d5e1081.js"
+    ],
+    "css": [
+      "assets/pages/ratePage.svelte-c09fe36f.css"
+    ]
+  },
+  "_index-396b3103.js": {
+    "file": "chunks/index-396b3103.js"
+  },
+  "_Footer-2f9ded2c.js": {
+    "file": "chunks/Footer-2f9ded2c.js",
+    "imports": [
+      "_index-396b3103.js"
+    ],
+    "css": [
+      "assets/Footer-8020eb07.css"
+    ]
+  },
+  "_Links-0d5e1081.js": {
+    "file": "chunks/Links-0d5e1081.js",
+    "imports": [
+      "_index-396b3103.js"
+    ],
+    "css": [
+      "assets/Links-3ba43bce.css"
+    ]
+  }
+}
