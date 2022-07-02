@@ -1,10 +1,11 @@
 {
   ".svelte-kit/runtime/client/start.js": {
-    "file": "start-109ec531.js",
+    "file": "start-e4df6e33.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
-      "_index-396b3103.js"
+      "_index-396b3103.js",
+      "_paths-396f020f.js"
     ],
     "dynamicImports": [
       "src/routes/__layout.svelte",
@@ -36,38 +37,41 @@
     ]
   },
   "src/routes/about.svelte": {
-    "file": "pages/about.svelte-97761298.js",
+    "file": "pages/about.svelte-1045556a.js",
     "src": "src/routes/about.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_index-396b3103.js",
       "_Footer-2f9ded2c.js",
-      "_Links-0d5e1081.js"
+      "_Links-d3d677ef.js",
+      "_paths-396f020f.js"
     ],
     "css": [
       "assets/pages/about.svelte-b6ca8e19.css"
     ]
   },
   "src/routes/index.svelte": {
-    "file": "pages/index.svelte-77a6cc5c.js",
+    "file": "pages/index.svelte-5b4ea1db.js",
     "src": "src/routes/index.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_index-396b3103.js",
-      "_Links-0d5e1081.js"
+      "_Links-d3d677ef.js",
+      "_paths-396f020f.js"
     ]
   },
   "src/routes/ratePage.svelte": {
-    "file": "pages/ratePage.svelte-9f148a56.js",
+    "file": "pages/ratePage.svelte-96614905.js",
     "src": "src/routes/ratePage.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_index-396b3103.js",
       "_Footer-2f9ded2c.js",
-      "_Links-0d5e1081.js"
+      "_Links-d3d677ef.js",
+      "_paths-396f020f.js"
     ],
     "css": [
       "assets/pages/ratePage.svelte-c09fe36f.css"
@@ -75,6 +79,9 @@
   },
   "_index-396b3103.js": {
     "file": "chunks/index-396b3103.js"
+  },
+  "_paths-396f020f.js": {
+    "file": "chunks/paths-396f020f.js"
   },
   "_Footer-2f9ded2c.js": {
     "file": "chunks/Footer-2f9ded2c.js",
@@ -85,10 +92,11 @@
       "assets/Footer-8020eb07.css"
     ]
   },
-  "_Links-0d5e1081.js": {
-    "file": "chunks/Links-0d5e1081.js",
+  "_Links-d3d677ef.js": {
+    "file": "chunks/Links-d3d677ef.js",
     "imports": [
-      "_index-396b3103.js"
+      "_index-396b3103.js",
+      "_paths-396f020f.js"
     ],
     "css": [
       "assets/Links-3ba43bce.css"
