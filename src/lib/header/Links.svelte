@@ -6,14 +6,14 @@
 <main>
     <div class="nav_links">
         {#if condition === 1}
-            <a href="/ratePage" class="link_to_page">Check exchange rate</a>
-            <a href="/about" class="link_to_page">About me</a>
+            <a href="./ratePage" class="link_to_page">Check exchange rate</a>
+            <a href="./about" class="link_to_page">About me</a>
         {:else if condition === 2}  
-            <a href="/" class="link_to_page">Return to the main page</a>  
-            <a href="/about" class="link_to_page">About me</a>
+            <a href="./" class="link_to_page">Return to the main page</a>  
+            <a href="./about" class="link_to_page">About me</a>
         {:else if condition === 3}
-            <a href="/" class="link_to_page">Return to the main page</a>
-            <a href="/ratePage" class="link_to_page">Check exchange rate</a>
+            <a href="./" class="link_to_page">Return to the main page</a>
+            <a href="./ratePage" class="link_to_page">Check exchange rate</a>
         {/if}
     </div>
 </main>
